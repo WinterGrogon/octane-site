@@ -46,3 +46,12 @@ a {
         font-size: 20px;
     }
 }
+
+/* Видео */
+.video {
+    overflow: hidden;
+}
+
+.video__src {
+    width: 100%;
+}
