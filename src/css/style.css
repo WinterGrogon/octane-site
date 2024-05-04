@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .container {
     max-width: 1920px;
     margin: 0 auto;
@@ -54,4 +58,141 @@ a {
 
 .video__src {
     width: 100%;
+}
+
+/* Character */
+.character {
+    height: 100dvh;
+    width: 100%;
+    background: url("../img/images/section2-bg.png") center / cover no-repeat;
+
+    &>.container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.character__figure {
+    text-align: center;
+    position: relative;
+}
+
+.character__caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-style: italic;
+    background-color: var(--black);
+    color: white;
+    padding: 40px;
+    border-radius: 20px 20px 0 0;
+}
+
+.character__info {
+    width: 40%;
+    padding: 10px;
+}
+
+.character__header {
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.character__name {
+    margin-bottom: 40px;
+}
+
+.character__username {
+    font-weight: 500;
+    color: #636363;
+    font-size: 30px;
+}
+
+.character__description {
+    margin: 40px 0;
+}
+
+.character__mark {
+    background-color: #C2DC49;
+}
+
+.character__details {
+    margin: 40px 0;
+}
+
+.character__summary {
+    color: #3C662B;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.character__footer {
+    text-align: right;
+}
+
+.character__additional {
+    background-color: var(--black);
+    display: flex;
+    align-items: center;
+    
+    flex-grow: 1;
+
+    padding: 50px;
+}
+
+.character__additional-list {
+    color: white;
+    font-size: 20px;
+}
+
+.character__additional-item {
+    margin: 30px 0;
+}
+
+.character__additional-name {
+    font-weight: 700;
+}
+
+/* Абилки */
+
+.abilities {
+    background: url("../img/images/section3-bg.png") center / cover no-repeat;
+    width: 100%;
+    min-height: 60dvh;
+
+    &>.container {
+        display: flex;
+        padding: 90px 80px 50px;
+        justify-content: space-between;
+    }
+}
+.abilities__card {
+    background-color: var(--black);
+    width: 25%;
+    border-radius: 25px;
+    text-align: center;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    padding-bottom: 140px;
+
+    
+}
+.abilities__image {
+    width: 80%;
+    margin-top: -40px;
+}
+.abilities__title {
+    color: #C2DC49;
+    font-size: 30px;
+}
+.abilities__subtitle {
+    color: white;
+}
+.abilities__text {
+    color: white;
+    text-wrap: pretty;
 }
