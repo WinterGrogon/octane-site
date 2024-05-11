@@ -167,6 +167,7 @@ ul {
         justify-content: space-between;
     }
 }
+
 .abilities__card {
     background-color: var(--black);
     width: 25%;
@@ -178,21 +179,99 @@ ul {
     gap: 30px;
     align-items: center;
     padding-bottom: 140px;
-
-    
 }
+
 .abilities__image {
     width: 80%;
     margin-top: -40px;
 }
+
 .abilities__title {
     color: #C2DC49;
     font-size: 30px;
 }
+
 .abilities__subtitle {
     color: white;
 }
+
 .abilities__text {
     color: white;
     text-wrap: pretty;
 }
+
+/* Спешл */
+
+.special {
+    background-color: #E5E1D8;
+    padding-block: 100px;
+}
+
+.special__article {}
+
+.special__header {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0.3em;
+}
+
+.special__title {
+    margin-bottom: 40px;
+}
+
+.special__subtitle {
+    font-weight: 500;
+    font-size: 30px;
+    color: #636363;
+}
+
+.special__figure {}
+
+.special__image {
+    display: block;
+    margin-inline: auto;
+}
+
+.special__caption {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.special__inner {
+    padding-block: 100px;
+}
+
+.special__text {
+    font-size: 20px;
+
+    &:not(&:last-of-type){
+        margin-bottom: 70px;
+    }
+}
+
+.special__text--silent {
+    color: #787878;
+}
+
+.special__list {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: circle;
+    margin-bottom: 100px;
+    margin-left: 30px;
+}
+
+.special__item {}
+
+.special__mark {
+    background-color: #C2DC49;
+}
+
+.special__footer {
+    border-top: 3px solid #C4C4C4;
+}
+
+
